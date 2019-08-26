@@ -16,4 +16,5 @@ return [
     'Important'                     => 'Importante',
     'Warning'                       => 'Aviso',
     'Information'                   => 'Informação',
+    'process_manager'               => 'Gestão de Processos',
 ];

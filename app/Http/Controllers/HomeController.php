@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Processo;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $processos = Processo::count();
+        return view('home', compact('processos'));
     }
 }
