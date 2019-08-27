@@ -17,7 +17,7 @@
 @section('content')
 <div class="container-fluid">
     @if (count($process) >= 0)
-    <table class="table table-hover table-hovered table-striped table-bordered">
+    <table class="table table-hover table-hovered table-striped table-bordered" style="border-radius: 7px;">
 
         <thead>
             <tr>

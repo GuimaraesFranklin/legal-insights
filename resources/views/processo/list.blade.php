@@ -109,7 +109,7 @@
                 @foreach ($pedidos as $item)
                 <tr>
                     <td hidden>$item->id</td>
-                    <td>{{date("d/m/Y", strtotime($item->created_at))}}</td>
+                    <td>{{date("d/m/Y - h:m:s", strtotime($item->created_at))}}</td>
                     <td>{{$item ->pedido}}</td>
                     <td>{{'R$'.number_format($item ->valor_risco_provavel, 2, ',', '.')}}</td>
                     <td>{{$item ->status}}</td>

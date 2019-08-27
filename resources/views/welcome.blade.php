@@ -7,9 +7,6 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-
-
     <!-- Styles -->
     <style>
         html,
@@ -84,7 +81,7 @@
 
         <div class="content">
             <div class="title m-b-md">
-                LEGAL-INSGHTS
+                Legal Insights
             </div>
         </div>
     </div>
